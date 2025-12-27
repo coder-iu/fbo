@@ -20,7 +20,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), Player.Listener {
 
     override fun initView() {
         renderView = binding.renderView
-        initMediaWindows()
         initPlayer()
     }
 
@@ -80,6 +79,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), Player.Listener {
         }
         renderView.renderer?.setOnSurfaceReady { surface ->
             Handler(Looper.getMainLooper()).post {
+                initMediaWindows()
                 player.setVideoSurface(surface)
                 player.playWhenReady = true
             }

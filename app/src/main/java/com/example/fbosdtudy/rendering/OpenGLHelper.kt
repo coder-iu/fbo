@@ -303,6 +303,25 @@ object OpenGLHelper {
         return Pair(fboId, texId)
     }
 
+
+    fun releaseFBO(fboId: Int, fboTextureId: Int) {
+        // 解绑 FBO（安全起见）
+        GLES30.glBindFramebuffer(GLES30.GL_FRAMEBUFFER, 0)
+
+        // 删除 FBO
+        if (fboId != 0) {
+            val fboIds = intArrayOf(fboId)
+            GLES30.glDeleteFramebuffers(1, fboIds, 0)
+        }
+
+        // 删除纹理
+        if (fboTextureId != 0) {
+            val texIds = intArrayOf(fboTextureId)
+            GLES30.glDeleteTextures(1, texIds, 0)
+        }
+    }
+
+
     fun createFullScreenVao(): Int {
         // GL_TRIANGLE_STRIP 顺序：左上, 左下, 右上, 右下
         val vertexData = floatArrayOf(
