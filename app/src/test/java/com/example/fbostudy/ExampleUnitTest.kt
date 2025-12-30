@@ -1,4 +1,4 @@
-package com.example.fbosdtudy
+package com.example.fbostudy
 
 import org.junit.Test
 

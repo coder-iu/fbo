@@ -1,10 +1,10 @@
-package com.example.fbosdtudy.rendering.pass
+package com.example.fbostudy.rendering.pass
 
 import android.content.Context
 import android.opengl.GLES30
-import com.example.fbosdtudy.R
-import com.example.fbosdtudy.rendering.OpenGLHelper
-import com.example.fbosdtudy.rendering.pipeline.FboRenderPass
+import com.example.fbostudy.R
+import com.example.fbostudy.rendering.OpenGLHelper
+import com.example.fbostudy.rendering.pipeline.FboRenderPass
 
 /**
  * @author Y³
@@ -16,7 +16,7 @@ class HuePass(
     helper: OpenGLHelper
 ) : FboRenderPass(helper) {
 
-    var hue: Float = 0f //[0,1]
+    var hue: Float = 0.6f //[0,1]
     private var uHueLoc = 0
     private var uTextureSamplerLoc = 0
     override fun createProgram(): Int {

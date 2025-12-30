@@ -1,4 +1,4 @@
-package com.example.fbosdtudy.rendering
+package com.example.fbostudy.rendering
 
 import android.content.Context
 import android.content.res.Resources
@@ -8,8 +8,8 @@ import android.opengl.GLES30
 import android.opengl.GLUtils
 import android.util.Log
 import androidx.annotation.RawRes
-import com.example.fbosdtudy.bean.VaoBean
-import com.example.fbosdtudy.bean.Window
+import com.example.fbostudy.bean.VaoBean
+import com.example.fbostudy.bean.Window
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader

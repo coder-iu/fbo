@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.fbosdtudy"
+    namespace = "com.example.fbostudy"
     compileSdk = 36
 
     defaultConfig {

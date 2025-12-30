@@ -1,10 +1,10 @@
-package com.example.fbosdtudy.rendering.pass
+package com.example.fbostudy.rendering.pass
 
 import android.content.Context
 import android.opengl.GLES30
-import com.example.fbosdtudy.R
-import com.example.fbosdtudy.rendering.OpenGLHelper
-import com.example.fbosdtudy.rendering.pipeline.RenderPass
+import com.example.fbostudy.R
+import com.example.fbostudy.rendering.OpenGLHelper
+import com.example.fbostudy.rendering.pipeline.RenderPass
 
 /**
  * @author Y³

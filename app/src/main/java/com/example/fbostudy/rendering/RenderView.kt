@@ -1,4 +1,4 @@
-package com.example.fbosdtudy.rendering
+package com.example.fbostudy.rendering
 
 import android.content.Context
 import android.opengl.GLSurfaceView

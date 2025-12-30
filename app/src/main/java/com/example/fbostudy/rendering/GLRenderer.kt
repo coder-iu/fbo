@@ -1,19 +1,19 @@
-package com.example.fbosdtudy.rendering
+package com.example.fbostudy.rendering
 
 import android.content.Context
 import android.graphics.SurfaceTexture
 import android.opengl.GLES30
 import android.opengl.GLSurfaceView
 import android.view.Surface
-import com.example.fbosdtudy.bean.Window
-import com.example.fbosdtudy.rendering.pass.BrightnessPass
-import com.example.fbosdtudy.rendering.pass.HuePass
-import com.example.fbosdtudy.rendering.pass.MultiWindowPass
-import com.example.fbosdtudy.rendering.pass.OesTo2DPass
-import com.example.fbosdtudy.rendering.pass.OutputPass
-import com.example.fbosdtudy.rendering.pass.PipPass
-import com.example.fbosdtudy.rendering.pass.SplitScreenPass
-import com.example.fbosdtudy.rendering.pipeline.RenderPipeline
+import com.example.fbostudy.bean.Window
+import com.example.fbostudy.rendering.pass.BrightnessPass
+import com.example.fbostudy.rendering.pass.HuePass
+import com.example.fbostudy.rendering.pass.MultiWindowPass
+import com.example.fbostudy.rendering.pass.OesTo2DPass
+import com.example.fbostudy.rendering.pass.OutputPass
+import com.example.fbostudy.rendering.pass.PipPass
+import com.example.fbostudy.rendering.pass.SplitScreenPass
+import com.example.fbostudy.rendering.pipeline.RenderPipeline
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10
 
@@ -93,8 +93,8 @@ class GLRenderer(
         surfaceTexture.getTransformMatrix(stMatrix)
         oesTo2DPass.updateSTMatrix(stMatrix)
 
-        pipPass.enabled = false
-        splitPass.enabled = false
+        pipPass.enabled = true
+        splitPass.enabled = true
         huePass.enabled = true
         brightnessPass.enabled = true
         multiWindowPass.enabled = true

@@ -1,4 +1,4 @@
-package com.example.fbosdtudy.base
+package com.example.fbostudy.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

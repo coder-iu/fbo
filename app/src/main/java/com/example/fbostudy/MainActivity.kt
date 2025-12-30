@@ -1,4 +1,4 @@
-package com.example.fbosdtudy
+package com.example.fbostudy
 
 import android.os.Handler
 import android.os.Looper
@@ -6,10 +6,10 @@ import android.view.LayoutInflater
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
-import com.example.fbosdtudy.base.BaseActivity
-import com.example.fbosdtudy.bean.Window
-import com.example.fbosdtudy.databinding.ActivityMainBinding
-import com.example.fbosdtudy.rendering.RenderView
+import com.example.fbostudy.base.BaseActivity
+import com.example.fbostudy.bean.Window
+import com.example.fbostudy.databinding.ActivityMainBinding
+import com.example.fbostudy.rendering.RenderView
 
 class MainActivity : BaseActivity<ActivityMainBinding>(), Player.Listener {
 

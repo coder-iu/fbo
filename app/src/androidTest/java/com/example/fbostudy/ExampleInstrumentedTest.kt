@@ -1,4 +1,4 @@
-package com.example.fbosdtudy
+package com.example.fbostudy
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,7 +1,7 @@
-package com.example.fbosdtudy.rendering.pipeline
+package com.example.fbostudy.rendering.pipeline
 
 import android.opengl.GLES30
-import com.example.fbosdtudy.rendering.OpenGLHelper
+import com.example.fbostudy.rendering.OpenGLHelper
 
 /**
  * @author Y³

@@ -1,4 +1,4 @@
-package com.example.fbosdtudy.bean
+package com.example.fbostudy.bean
 
 /**
  *@author Y³

@@ -1,4 +1,4 @@
-package com.example.fbosdtudy.bean
+package com.example.fbostudy.bean
 
 import kotlin.math.cos
 import kotlin.math.sin

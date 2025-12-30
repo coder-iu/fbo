@@ -1,4 +1,4 @@
-package com.example.fbosdtudy.rendering.pipeline
+package com.example.fbostudy.rendering.pipeline
 
 /**
  * @author Y³
